@@ -227,11 +227,11 @@ const Layout = ({ children, hideNav = false }: LayoutProps) => {
               <ul className="space-y-2">
                 <li className="flex justify-between">
                   <span>Monday - Friday</span>
-                  <span>09:00 - 19:00</span>
+                  <span>10:00 AM - 7:00 PM</span>
                 </li>
                 <li className="flex justify-between">
                   <span>Saturday</span>
-                  <span>09:00 - 18:00</span>
+                  <span>10:00 AM - 6:00 PM</span>
                 </li>
                 <li className="flex justify-between">
                   <span>Sunday</span>
