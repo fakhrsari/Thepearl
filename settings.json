@@ -1,0 +1,13 @@
+{
+  // Let the Tailwind IntelliSense parse your .css files
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // Disable errors for unknown at-rules
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+
+  // (Optional) If you still want basic CSS validation on things VS Code understands
+  "css.validate": true
+}
