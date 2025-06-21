@@ -53,7 +53,7 @@ const HomePage = () => {
           style={{
             backgroundImage:
               "url('background.jpg')",
-            backgroundAttachment: "fixed",
+            
           }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
