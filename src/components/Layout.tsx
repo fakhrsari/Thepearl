@@ -25,7 +25,7 @@ const Layout = ({ children, hideNav = false }: LayoutProps) => {
   ];
 
   return (
-    <div className="relative flex flex-col min-h-[calc(var(--vh)*100)] bg-center bg-cover">
+    <div className="relative flex flex-col min-h-[calc(var(--vh)*100)] bg-[url('/background.jpg')] bg-center bg-cover">
       {!hideNav && (
         <header
           className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
