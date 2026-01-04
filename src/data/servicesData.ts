@@ -28,8 +28,8 @@ export const services: ServiceCategory[] = [
         price: "$70"
       },
       {
-        name: "Lipolysis Double Chin (2 ml)",
-        price: "$35"
+        name: "Lipolysis Double Chin (3 ml)",
+        price: "$40"
       },
       {
         name: "Regenerate & Replenish: PRP",
@@ -41,7 +41,7 @@ export const services: ServiceCategory[] = [
       },
       {
         name: "Restorative Skin Kick (Skin Booster)",
-        price: "$120"
+        price: "$150"
       },
       {
         name: "EXOSOMES",
@@ -66,11 +66,11 @@ export const services: ServiceCategory[] = [
     items: [
       {
         name: "HIFU Ultraformer 7D (Face Lifting & Body Firming)",
-        price: "$250"
+        price: "$300"
       },
       {
         name: "RF Microneedling (Pore Tightening, Skin Firming, Skin Whitening, Scar Reduction)",
-        price: "$200"
+        price: "$250"
       }
     ]
   },
@@ -81,15 +81,15 @@ export const services: ServiceCategory[] = [
       { name: "Full Body (Including Back & Tummy)", price: "$150" },
       { name: "Full Arms", price: "$40" },
       { name: "Half Arms", price: "$30" },
-      { name: "Underarms", price: "$20" },
+      { name: "Underarms", price: "$30" },
       { name: "Full Face + Neck", price: "$20" },
       { name: "Upper Lip", price: "$10" },
       { name: "Bikini Line", price: "$15" },
       { name: "Full Bikini", price: "$30" },
-      { name: "Full Bikini + Brazilian", price: "$35" },
-      { name: "Full Legs", price: "$50" },
+      { name: "Full Bikini + Brazilian", price: "$40" },
+      { name: "Full Legs", price: "$60" },
       { name: "Half Legs", price: "$40" },
-      { name: "Back + Tummy", price: "$50" },
+      { name: "Back + Tummy", price: "$60" },
       { name: "Sideburns", price: "$15" },
       { name: "Chest or Back", price: "$50", note: "Men’s Laser" },
       { name: "Back & Chest", price: "$100", note: "Men’s Laser" },
@@ -113,11 +113,11 @@ export const services: ServiceCategory[] = [
     category: "Body Therapy",
     items: [
       {
-        name: "Divine Massage (90 mins; Moroccan Scrub + Swedish Massage + Reflexology)",
-        price: "$100"
+        name: "Divine Massage (50 mins)",
+        price: "$60"
       },
       {
-        name: "The Healing Touch Massage (Ayurveda & Hot Stones, 60 mins)",
+        name: "The Healing Touch Massage (60 mins)",
         price: "$80"
       },
       {
@@ -125,20 +125,20 @@ export const services: ServiceCategory[] = [
         price: "$60"
       },
       {
-        name: "Face Lift & Scalp Massage (40 mins)",
-        price: "$50"
+        name: "Face Lift & Scalp Massage (20 mins)",
+        price: "$40"
       },
       {
-        name: "Manual Lymphatic Drainage Massage (60 mins)",
+        name: "Manual Lymphatic Drainage Massage (50 mins)",
         price: "$60"
       },
       {
-        name: "Cellulite Fit & Firm Maderotherapy (50 mins)",
-        price: "$60"
+        name: "Cellulite Fit & Firm Maderotherapy (40 mins)",
+        price: "$50"
       },
       {
-        name: "Back, Neck & Shoulder Massage (40 mins)",
-        price: "$50"
+        name: "Back, Neck & Shoulder Massage (20 mins)",
+        price: "$40"
       },
       {
         name: "Mom to Be Massage (40 mins)",
@@ -161,15 +161,13 @@ export const services: ServiceCategory[] = [
   {
     category: "Slimming Lipolysis",
     items: [
-      { name: "Tummy – 5 ml", price: "$50" },
-      { name: "Tummy – 10 ml", price: "$90" },
-      { name: "Love Handles – 5 ml", price: "$50" },
-      { name: "Love Handles – 10 ml", price: "$90" },
-      { name: "Thighs – 5 ml", price: "$50" },
-      { name: "Thighs – 10 ml", price: "$90" },
-      { name: "Arms – 5 ml", price: "$50" },
-      { name: "Arms – 10 ml", price: "$90" },
-      { name: "Double Chin (2 ml)", price: "$30" },
+      { name: "Tummy – 5 ml", price: "$60" },
+      { name: "Tummy – 10 ml", price: "$110" },
+      { name: "Love Handles – 5 ml", price: "$60" },
+      { name: "Love Handles – 10 ml", price: "$110" },
+      { name: "Thighs/Arms – 5 ml", price: "$60" },
+      { name: "Thighs/Arms – 10 ml", price: "$110" },
+      { name: "Double Chin (3 ml)", price: "$40" },
       { name: "Sauna Bed (30 mins)", price: "$30" },
       { name: "Cavitation (50 mins)", price: "$50" },
       { name: "EMS (30 mins)", price: "$40" }
@@ -179,29 +177,31 @@ export const services: ServiceCategory[] = [
   {
     category: "Nails",
     items: [
-      { name: "Manicure", price: "$7" },
+      { name: "Manicure", price: "$10" },
       { name: "Pedicure", price: "$10" },
       { name: "Color", price: "$5" },
-      { name: "French", price: "$7" },
+      { name: "French", price: "$10" },
       { name: "Russian Manicure", price: "$10" },
-      { name: "Russian Pedicure", price: "$15" },
-      { name: "Medical Pedicure", price: "$25" },
+      { name: "Russian Pedicure", price: "$10" },
+      { name: "Medical Pedicure", price: "$20" },
       { name: "Men’s Pedicure", price: "$20" },
       { name: "Fake Nail", price: "$2" },
-      { name: "Fake Nail Set", price: "$15" },
-      { name: "Gel Color / Ombre", price: "$12 / $14" },
-      { name: "French Gel Color", price: "$14" },
+      { name: "Fake Nail Set", price: "$20" },
+      { name: "Gel Color", price: "$12" },
+      {name: "Ombre",price: "$15"},
+      { name: "French Gel Color", price: "$15" },
       { name: "Gel Color Removal", price: "$5" },
-      { name: "Gel/Acrylic Set", price: "$50" },
       { name: "Refill", price: "$30" },
       { name: "Extension Removal", price: "$8" },
-      { name: "GEL Ex Full Set", price: "$30" },
       { name: "Nail Repair/Design", price: "$3" },
-      { name: "Rubberbase/Structure", price: "$12 / $10" },
-      { name: "Paraffin", price: "$5" },
-      { name: "CatEye/Mirror/Chrome", price: "$3" },
-      { name: "CatEye/Mirror/Chrome Set", price: "$15" },
-      { name: "Structure", price: "$10" }
+      { name: "Rubberbase", price: "$20" },
+      { name: "Parafin", price: "$5" },
+      { name: "CatEye/Mirror/Chrome", price: "$15" },
+      { name: "Polygel Full Set", price: "$50" },
+      { name: "Polygel Refill", price: "$30" },
+      { name: "Filing", price: "$2" },
+      { name: "Nail Repair", price: "$2" },
+      { name: "Nail design", price: "$2 - $4" }
     ]
   },
   {
@@ -219,17 +219,15 @@ export const services: ServiceCategory[] = [
   {
     category: "Waxing",
     items: [
-      { name: "Full Body", price: "$30" },
+      { name: "Full Body", price: "$40" },
       { name: "Full Arms", price: "$10" },
-      { name: "Underarms", price: "$5" },
-      { name: "Half Arms", price: "$5" },
-      { name: "Full Legs", price: "$15" },
+      { name: "Underarms", price: "$7" },
+      { name: "Half Arms", price: "$10" },
+      { name: "Full Legs", price: "$20" },
       { name: "Half Legs", price: "$10" },
-      { name: "Bikini Line", price: "$3" },
+      { name: "Bikini Line", price: "$5" },
       { name: "Full Back / Full Tummy", price: "$10" },
-      { name: "Half Back", price: "$6" },
-      { name: "Upper Lip or Chin", price: "$3" },
-      { name: "Men’s Full Chest or Back", price: "$20" },
+      { name: "Half Back", price: "$10" },
       { name: "Eyebrow Shaping", price: "$5" },
       { name: "Eyebrows & Forehead", price: "$7" },
       { name: "Full Face", price: "$15" },
